@@ -1,0 +1,18 @@
+.div-border-style {
+  /* border-style : 테두리의 형태를 지정 */
+  border-style: soild;
+
+  /* border-width : 테두리의 두께를 지정 */
+  border-width: 5px 10px 15px 20px;
+
+  /*
+    1개 지정 : 사방 테두리 적용
+  */
+  border-color:brown;
+
+  /*border : 테두리의 두께, 속성, 색상을 한번에 지정 */
+  border: 1px soild blanchedalmond;
+
+  /*border-radius: 테두리의 모서리를 둥글게 처리 */
+  border-radius: 5px;
+}

@@ -1,0 +1,48 @@
+/*
+블럭 레벨 요소
+
+인라인 레벨 요소
+1. 콘텐츠 크기만큼만 크기가 고정된다.
+ 크기 조절이 되지 않는다.
+ 공간이 충분하면 위로 올라온다.
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.div {
+  border: 1px solid black;
+}
+
+.div-box, h1 {
+  padding: 20px;
+  display: inline;
+  width: 100px;
+}
+
+span {display: inline-block; width: 100vw; height: 50vh; padding:5px;}
+
+.div-parent {
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  margin: 10px auto; 
+}
+
+.div-child{
+  border: 1px solid red;
+  width: 50vw;
+  min-width: 15px
+}
+
+.div-margin {
+  margin: 20px;
+  background-color: red;
+  /*
+   수평거리, 수직거리, 흐림정도, 번짐정도, 색상, 그림자 방향
+  */
+  box-shadow: 10px 10px 10px 15px black inset;
+}
