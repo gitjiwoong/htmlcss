@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  /* padding: 10px; */
+}
+.div {
+  border: 1px solid #000;
+}
+/* .div-box {
+  display: inline;
+}
+span {
+  display: block;
+} */
+.div-box, h1 {
+  width: 100px;
+}
+span {
+  width: 100vw;
+  height: 50vh;
+  display: inline-block;
+  padding: 5px;
+  /* box-sizing: border-box; */
+  /* box-sizing: content-box;에서 설정을 위로 바꾸는 편 */
+}
+/* vw, vh (뷰포트 기준 단위) : 뷰의 크기에 따라 비율로 설정 단위
+   % : 부모요소의 크기에 따라 비율로 설정 단위
+*/
+.div-parent {
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  margin: 10px auto;
+}
+/* 반응형을 고려하더라도 픽셀, rem, %, max-width 등 혼용 사용함 */
+/* 반응형이더라도 px을 안 사용 하는 것은 아님 */
+.div-child {
+  border: 1px solid #E84D4D;
+  width: 50vw;
+  min-width: 400px;
+}
+.div-margin {
+  margin: 20px;
+  background-color: #E84D4D;
+  /* 수평거리, 수직거리, 흐림정도, 번짐정도, 색상, 그림자 방향 */
+  box-shadow: 1px 2px 50px 1px #727272 inset;
+}

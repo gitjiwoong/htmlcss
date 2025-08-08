@@ -1,0 +1,34 @@
+
+    고급선택자
+    후손 결합자 공백을 구분자로 선택
+    자식 결합자 부모 요소 안에 있는 자식 요소 선택
+    인접 결합자
+    속성 선택자
+    가상 선택자 가상 클래스명
+    link : 아직 방문하지 않은 요소 선택
+    visited : 방문을 했던 요소 선택
+    hover : 마우스 커서가 있는 요소 선택
+    active : 클릭하고 있는 요소 선택
+    focus
+    not: '()' 선택한 것 제외
+    nth-child
+    nth of tile
+
+
+    input:checked + label{
+      background-color: cadetblue
+    }
+    
+    a:active{
+      backgro
+    }
+    focus:
+    header span{
+      
+    }
+
+    [href="네이버"]{
+      font-size = 10px
+    }
+
+    

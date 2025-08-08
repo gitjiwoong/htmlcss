@@ -14,16 +14,19 @@
 }
 
 .div {
-  border: 1px solid black;
+  border: 1px solid #000;
 }
 
 .div-box, h1 {
-  padding: 20px;
-  display: inline;
-  width: 100px;
+ width: 100px;
 }
 
-span {display: inline-block; width: 100vw; height: 50vh; padding:5px;}
+.span {
+  width: 100vw;
+  height: 50vh; 
+  display: inline-block;
+  padding:5px;
+}
 
 .div-parent {
   width: 200px;
@@ -33,16 +36,16 @@ span {display: inline-block; width: 100vw; height: 50vh; padding:5px;}
 }
 
 .div-child{
-  border: 1px solid red;
+  border: 1px solid #E84D4D;
   width: 50vw;
-  min-width: 15px
+  min-width: 400px;
 }
 
 .div-margin {
   margin: 20px;
-  background-color: red;
+  background-color: blue;
   /*
    수평거리, 수직거리, 흐림정도, 번짐정도, 색상, 그림자 방향
   */
-  box-shadow: 10px 10px 10px 15px black inset;
+  box-shadow: 1px 2px 50px 1px black inset;
 }
