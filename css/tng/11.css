@@ -1,0 +1,56 @@
+.required-sign::before{
+  content: '*';
+  color: red
+}
+
+.input-box{
+  margin-bottom:
+}
+
+.btn-submit{
+  position: relative;
+}
+
+.fieldset-bg-img::after{
+  background-image: url('');
+  position: relative;
+}
+
+.fieldset-bg-img{
+  background-color: white;
+}
+
+.gender {
+  position: relative;
+}
+
+legend{
+  color: red;
+  font-size: 35px;
+}
+
+fieldset{
+  background-image: url('../../img/미어캣.jpg');
+  background-repeat: no-repeat;
+  width: 500px;
+  height: 340px;
+  position: cover;
+  margin: 5 5;
+  padding: 5 5 10 15
+  
+}
+
+fieldset .line-height{
+  margin-bottom: 5px;
+}
+
+fieldset > .yogu {
+  position: relative;
+  bottom: 100px;
+  /* bottom: 5px; */
+}
+
+.information-box{
+  width: 270px;
+  height: 150px;
+}
